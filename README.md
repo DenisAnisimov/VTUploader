@@ -19,6 +19,9 @@ Settings can be stored in two places. If there's a file with the same name and a
 ### File tab
 
 * **Select** button lets you choose the executable file you want to check on the virustotal.com website. Clicking the arrow on the right side of the button will bring up a menu where you can also choose the **Select process** or **Select file from Windows Defender quarantine** option. Selecting **Select process** option will open a window where you can choose a currently running process, whose file should be opened. Selecting **Select file from Windows Defender quarantine** option will open a window where you can choose a object from quarantine, whose file should be opened. Important! Access to quarantined objects requires running the utility with administrator rights, and if necessary, the utility itself will offer to restart with elevated rights. You can also open a file using the Drag&Drop mouse operation.
+ 
+<p align="center"><img src="Img/SelectMenu.png?raw=true"/></p>
+
 * After opening a file, the utility will calculate and display the **MD5** and **SHA-256** checksums. The utility's subsequent behavior depends on the **Load last report when opening file** option. If the option is not enabled, the utility will show the **Load last report** button, which you can click to load the last report. If it's enabled, the utility will immediately load the last report on the file. Important! No matter how the last report is obtained, if the file has not been previously uploaded to the virustotal.com service, it will be uploaded automatically.
 * After loading the report, the utility will display its contents. The date of the last report, the number of antivirus engines that detected malicious content, and a list of all antivirus engines, their versions, and verdicts will be shown.
 * **Copy** buttons allow you to copy data from the report to the clipboard.
